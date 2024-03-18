@@ -14,7 +14,7 @@ pipeline {
         }
         stage('git checkout') {
             steps {
-                git branch: 'project-2', url: 'https://github.com/GOWTHAMSAMMANGI/realchain-upGrad.git'
+                git branch: 'main', url: 'https://github.com/GOWTHAMSAMMANGI/realchain-upGrad.git'
             }
         }
 
